@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 
 # Path to dataset
-file_path = 'Smartphone_Usage_Behavior_Dataset.csv'
+file_path = 'data/Smartphone_Usage_Behavior_Dataset.csv'
 
 # Load dataset
 data = pd.read_csv(file_path)
